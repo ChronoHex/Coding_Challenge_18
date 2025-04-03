@@ -1,6 +1,6 @@
-import Greeting from 'greeting';
+import React from 'react';
 
-function appGreeting() {
+function Greeting() {
     return (
         <div>
             <h2>Hello from the Greeting Component!</h2>
@@ -9,4 +9,4 @@ function appGreeting() {
     );
 }
 
-export default appGreeting;
+export default Greeting;
